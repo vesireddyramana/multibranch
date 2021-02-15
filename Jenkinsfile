@@ -27,7 +27,6 @@ stages
       }
    }
 }
-}
 
    stage("compile the code")
    {
