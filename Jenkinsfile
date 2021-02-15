@@ -13,10 +13,10 @@ stages
          steps
          {
              echo "welcome to multi-branchpipeine"
-            git 'https://github.com/SriDevops-T/TestPetclinic.git'
-            echo "webhooks are done"
-             }
-             }
+             git 'https://github.com/vesireddyramana/multibranch.git'
+             echo "webhooks are done"
+          }
+     }
 
    stage("check")
    {
@@ -25,7 +25,7 @@ stages
       {
           echo "welcome"
       }
-             }
+   }
 }
 }
 
