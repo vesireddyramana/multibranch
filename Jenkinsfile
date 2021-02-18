@@ -26,7 +26,6 @@ stages
           echo "welcome"
       }
    }
-}
 
    stage("compile the code")
    {
@@ -34,7 +33,8 @@ stages
       {
            sh 'mvn compile'
       }
-             }
+    }
+}
 }
 
 
