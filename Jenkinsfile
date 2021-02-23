@@ -14,6 +14,7 @@ stages
          {
              echo "welcome to multi-branchpipeine"
              git 'https://github.com/vesireddyramana/multibranch.git'
+             echo "webhooks are done"
           }
      }
 
@@ -25,8 +26,6 @@ stages
           echo "welcome"
       }
    }
-}
-}
 
    stage("compile the code")
    {
@@ -34,7 +33,6 @@ stages
       {
            sh 'mvn compile'
       }
-             }
+    }
 }
-
-
+}
