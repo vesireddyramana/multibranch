@@ -14,7 +14,7 @@ stages
          {
              echo "welcome to multi-branchpipeine"
              git 'https://github.com/vesireddyramana/multibranch.git'
-             echo "webhooks are done"
+             echo "webhooks are configured successfully."
           }
      }
 
